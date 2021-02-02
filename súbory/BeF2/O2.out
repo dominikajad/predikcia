@@ -1,0 +1,202 @@
+ *******************************************************************************
+ ** Site#: 30659        For non-commercial use only    Version 20.225L 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 20.225L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 192**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM6 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Tue Feb  2 13:00:32 2021  *
+ *  PM6        - The PM6 Hamiltonian to be used
+ *  TRIPLET    - SPIN STATE DEFINED AS A TRIPLET
+ *  RHF        - RESTRICTED HARTREE-FOCK CALCULATION
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  OPEN(N,N)- THERE ARE 2 ELECTRONS IN 2 LEVELS
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  AUX        - OUTPUT AUXILIARY INFORMATION
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *  GRAPH      - GENERATE FILE FOR GRAPHICS
+ *  ALLVEC     - PRINT ALL EIGENVECTORS
+ *******************************************************************************
+ AUX LARGE CHARGE=0 TRIPLET  PM6 OPEN(2,2)  GRAPHF ALLVEC RHF
+ O2
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O         -1.86395000  *   1.15846000  *  -0.10263000  *
+     2       O         -2.74889000  *   0.42258000  *  -0.10269000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1         O         -1.8639      1.1585     -0.1026
+     2         O         -2.7489      0.4226     -0.1027
+
+ General Reference for PM6:
+ "Optimization of Parameters for Semiempirical Methods V: Modification of NDDO Approximations
+ and Application to 70 Elements", J. J. P. Stewart, J. Mol. Mod., 13, 1173-1213 (2007)
+ URL: https://link.springer.com/article/10.1007/s00894-007-0233-4
+
+           Empirical Formula: O2  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D*h 
+
+
+ TRIPLET STATE CALCULATION
+
+      THERE ARE    5 DOUBLY FILLED LEVELS
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 5
+
+
+                       NO. OF SINGLY OCCUPIED LEVELS =    2
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.004 TIME LEFT:  2.00D  GRAD.:    96.397 HEAT: -15.18402
+ CYCLE:     2 TIME:   0.004 TIME LEFT:  2.00D  GRAD.:    15.691 HEAT: -16.72029
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.929 HEAT: -16.75445
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     0.030 HEAT: -16.75499
+
+     GRADIENT =  0.03038 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ AUX LARGE CHARGE=0 TRIPLET  PM6 OPEN(2,2)  GRAPHF ALLVEC RHF
+ O2
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM6 CALCULATION
+                                                       MOPAC2016 (Version: 20.225L)
+                                                       Tue Feb  2 13:00:32 2021
+                                                       No. of days remaining = 192
+
+
+
+
+          FINAL HEAT OF FORMATION =        -16.75499 KCAL/MOL =     -70.10288 KJ/MOL
+
+
+          TOTAL ENERGY            =       -580.14645 EV  STATE:   1 TRIPLET Sig-
+          ELECTRONIC ENERGY       =       -905.23395 EV  POINT GROUP:     D*h 
+          CORE-CORE REPULSION     =        325.08750 EV
+          COSMO AREA              =         48.88 SQUARE ANGSTROMS
+          COSMO VOLUME            =         31.15 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.03038 = 0.02149 PER ATOM
+          NO. OF FILLED LEVELS    =          5
+          AND NO. OF OPEN LEVELS  =          2
+          MOLECULAR WEIGHT        =         31.9988
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            O     2    O     1     1.10661
+            O     2    O     1     0.00000
+            O     1    O     2     0.00000
+
+
+          SCF CALCULATIONS        =          7
+ 
+          WALL-CLOCK TIME         =          0.023 SECONDS
+          COMPUTATION TIME        =          0.023 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1       O         -1.87960384  *   1.14262333  *  -0.10263150  *
+     2       O         -2.73323616  *   0.43841667  *  -0.10268850  *
+
+                             CARTESIAN COORDINATES
+
+   1    O       -1.879603843     1.142623332    -0.102631502
+   2    O       -2.733236157     0.438416668    -0.102688498
+
+
+           Empirical Formula: O2  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   D*h 
+
+
+                EIGENVECTORS  
+
+
+   Root No.       1         2         3         4         5         6         7         8
+
+                 1 sig     1 siu     1 piu     1 piu     2 sig     1 pig     1 pig     2 siu 
+
+               -35.632   -29.115   -17.583   -17.583   -16.698    -4.972    -4.972     2.491
+  
+  S   O    1    0.5698    0.6775    0.0000    0.0000    0.4188   -0.0000   -0.0000   -0.2024
+  Px  O    1   -0.3230    0.1561   -0.4500   -0.0000    0.4395    0.4500    0.0000    0.5226
+  Py  O    1   -0.2665    0.1288    0.5455   -0.0000    0.3626   -0.5455    0.0000    0.4312
+  Pz  O    1   -0.0000    0.0000    0.0000    0.7071    0.0000   -0.0000   -0.7071    0.0000
+  S   O    2    0.5698   -0.6775   -0.0000   -0.0000    0.4188   -0.0000   -0.0000    0.2024
+  Px  O    2    0.3230    0.1561   -0.4500   -0.0000   -0.4395   -0.4500   -0.0000    0.5226
+  Py  O    2    0.2665    0.1288    0.5455   -0.0000   -0.3626    0.5455   -0.0000    0.4312
+  Pz  O    2    0.0000    0.0000    0.0000    0.7071   -0.0000    0.0000    0.7071    0.0000
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       
+    1          O          -0.000000        6.0000     1.91810     4.08190
+    2          O           0.000000        6.0000     1.91810     4.08190
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -0.000    -0.000    -0.000     0.000
+ HYBRID         0.000     0.000     0.000     0.000
+ SUM           -0.000    -0.000    -0.000     0.000
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz   
+    1  O   1.91810   1.25121   1.33069   1.50000
+    2  O   1.91810   1.25121   1.33069   1.50000
+
+           DATA FOR GRAPH WRITTEN TO DISK
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.02 SECONDS
+
+ == MOPAC DONE ==
