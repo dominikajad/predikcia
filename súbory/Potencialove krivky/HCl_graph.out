@@ -1,0 +1,235 @@
+ *******************************************************************************
+ ** Site#: 30659        For non-commercial use only    Version 20.225L 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 20.225L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 191**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Feb  3 21:06:08 2021  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  AUX        - OUTPUT AUXILIARY INFORMATION
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *  GRAPH      - GENERATE FILE FOR GRAPHICS
+ *  ALLVEC     - PRINT ALL EIGENVECTORS
+ *******************************************************************************
+ AUX LARGE CHARGE=0 SINGLET  PM7 GRAPHF ALLVEC
+ HCl
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Cl         -0.92669000  *   1.11453000  *   0.64443000  *
+     2       H         -1.02206000  *   1.32408000  *   0.83677000  *
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Cl         -0.9267      1.1145      0.6444
+     2         H         -1.0221      1.3241      0.8368
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: H Cl  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C*v 
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 4
+
+
+          Geometry optimization using EF
+
+          DIAGONAL MATRIX USED AS START HESSIAN
+
+ CYCLE:     1 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:999999.999 HEAT:  1867244.
+ NUMERICAL PROBLEMS IN BRACKETING LAMDA   200.000000000300     
+  -1000000.00000000        200.000000000100       -11160953927.7093     
+ -9.762010132719983E+024
+  GOING FOR FIXED STEP SIZE....
+ NUMERICAL PROBLEMS IN BRACKETING LAMDA   200.000000000300     
+  -1000000.00000000        200.000000000100        11157.1458856098     
+  2.253845270757941E+034
+  GOING FOR FIXED LEVEL SHIFTED NR STEP...
+ CYCLE:     2 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:999999.999 HEAT:  47205.64
+ NUMERICAL PROBLEMS IN BRACKETING LAMDA   200.000000143963     
+  -1000000.00000000        200.000000143763       0.217418194296134     
+   36271919850298.1     
+  GOING FOR FIXED LEVEL SHIFTED NR STEP...
+ CYCLE:     3 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:355225.993 HEAT:  10317.60
+ CYCLE:     4 TIME:   0.000 TIME LEFT:  2.00D  GRAD.: 16395.254 HEAT:  881.4441
+ CYCLE:     5 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:  1077.821 HEAT:  93.93144
+ CYCLE:     6 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:   862.909 HEAT:  66.15118
+ CYCLE:     7 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    81.212 HEAT: -18.57443
+ CYCLE:     8 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:    14.158 HEAT: -20.41212
+ CYCLE:     9 TIME:   0.000 TIME LEFT:  2.00D  GRAD.:     1.724 HEAT: -20.48503
+ CYCLE:    10 TIME:   0.008 TIME LEFT:  2.00D  GRAD.:     0.886 HEAT: -20.48580
+
+     GRADIENT =  0.88569 IS LESS THAN CUTOFF =  1.00000
+
+
+
+ -------------------------------------------------------------------------------
+ AUX LARGE CHARGE=0 SINGLET  PM7 GRAPHF ALLVEC
+ HCl
+
+
+
+     GEOMETRY OPTIMISED USING EIGENVECTOR FOLLOWING (EF).     
+     SCF FIELD WAS ACHIEVED                                   
+
+
+                              PM7 CALCULATION
+                                                       MOPAC2016 (Version: 20.225L)
+                                                       Wed Feb  3 21:06:08 2021
+                                                       No. of days remaining = 191
+
+
+
+
+          FINAL HEAT OF FORMATION =        -20.48580 KCAL/MOL =     -85.71257 KJ/MOL
+
+
+          TOTAL ENERGY            =       -280.71616 EV
+          ELECTRONIC ENERGY       =       -344.11513 EV  POINT GROUP:     C*v 
+          CORE-CORE REPULSION     =         63.39896 EV
+          COSMO AREA              =         54.50 SQUARE ANGSTROMS
+          COSMO VOLUME            =         37.41 CUBIC ANGSTROMS
+
+          GRADIENT NORM           =          0.88569 = 0.62627 PER ATOM
+          IONIZATION POTENTIAL    =         11.727318 EV
+          HOMO LUMO ENERGIES (EV) =        -11.727  2.074
+          NO. OF FILLED LEVELS    =          4
+          MOLECULAR WEIGHT        =         36.4609
+
+          MOLECULAR DIMENSIONS (Angstroms)
+
+            Atom       Atom       Distance
+            H     2   Cl     1     1.27200
+            H     2   Cl     1     0.00000
+           Cl     1    H     2     0.00000
+
+
+          SCF CALCULATIONS        =         11
+ 
+          WALL-CLOCK TIME         =          0.023 SECONDS
+          COMPUTATION TIME        =          0.025 SECONDS
+
+
+
+
+   ATOM   CHEMICAL          X               Y               Z
+  NUMBER   SYMBOL      (ANGSTROMS)     (ANGSTROMS)     (ANGSTROMS)
+ 
+     1      Cl         -0.42096408  *   1.41408641  *   0.49505504  *
+     2       H         -1.52778592  *   1.02452359  *   0.98614495  *
+
+                             CARTESIAN COORDINATES
+
+   1   Cl       -0.420964078     1.414086413     0.495055040
+   2    H       -1.527785918     1.024523588     0.986144948
+
+
+           Empirical Formula: H Cl  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C*v 
+
+
+                EIGENVECTORS  
+
+
+   Root No.       1         2         3         4         5         6         7         8
+
+                 1 sig     2 sig     1 pi      1 pi      3 sig     6 ????    7 ????    8 ????
+
+               -26.388   -15.375   -11.727   -11.727     2.074    69.426    69.667    69.667
+  
+  S  Cl    1    0.9452    0.3106    0.0000    0.0000   -0.1004   -0.0001   -0.0000    0.0000
+  Px Cl    1   -0.1615    0.6652   -0.3810    0.3125    0.5372   -0.0048    0.0017   -0.0020
+  Py Cl    1   -0.0568    0.2341    0.9150    0.2627    0.1891   -0.0017    0.0014    0.0049
+  Pz Cl    1    0.0717   -0.2952   -0.1329    0.9128   -0.2383    0.0021    0.0049   -0.0007
+  x2 Cl    1    0.0048   -0.0115    0.0033   -0.0010    0.0106   -0.5742    0.1885   -0.6127
+  xz Cl    1   -0.0049    0.0117   -0.0002   -0.0036   -0.0107    0.5816    0.6738    0.0282
+  z2 Cl    1   -0.0023    0.0055   -0.0005    0.0033   -0.0051    0.2763   -0.6100    0.0918
+  yz Cl    1   -0.0017    0.0041    0.0021   -0.0010   -0.0038    0.2047    0.1762   -0.3948
+  xy Cl    1    0.0039   -0.0093   -0.0036   -0.0017    0.0085   -0.4614    0.3276    0.6779
+  S   H    2    0.2683   -0.5645   -0.0000   -0.0000    0.7801    0.0280    0.0000    0.0000
+
+
+   Root No.       9        10
+
+                 9 ????   10 ????
+
+                70.524    70.524
+  
+  S  Cl    1    0.0000    0.0000
+  Px Cl    1    0.0000   -0.0000
+  Py Cl    1   -0.0000    0.0000
+  Pz Cl    1    0.0000    0.0000
+  x2 Cl    1    0.4654   -0.2061
+  xz Cl    1    0.3589   -0.2791
+  z2 Cl    1    0.7347    0.0576
+  yz Cl    1    0.0499    0.8767
+  xy Cl    1    0.3352    0.3282
+  S   H    2   -0.0000   -0.0000
+
+
+              NET ATOMIC CHARGES AND DIPOLE CONTRIBUTIONS
+
+  ATOM NO.   TYPE          CHARGE      No. of ELECS.   s-Pop       p-Pop       d-Pop       
+    1         Cl          -0.218579        7.2186     1.97985     5.23767     0.00106
+    2          H           0.218579        0.7814     0.78142
+ DIPOLE           X         Y         Z       TOTAL
+ POINT-CHG.    -1.162    -0.409     0.516     1.335
+ HYBRID        -0.356    -0.125     0.158     0.410
+ SUM           -1.519    -0.534     0.674     1.745
+
+
+          ATOMIC ORBITAL ELECTRON POPULATIONS
+
+     Atom    s        px        py        pz      x^2-y^2     xz        z^2       yz        xy
+    1 Cl   1.97985   1.42287   1.92846   1.88634   0.00034   0.00035   0.00009   0.00005   0.00023
+    2  H   0.78142
+
+           DATA FOR GRAPH WRITTEN TO DISK
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.03 SECONDS
+
+ == MOPAC DONE ==
