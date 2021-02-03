@@ -1,0 +1,313 @@
+ *******************************************************************************
+ ** Site#: 30659        For non-commercial use only    Version 20.225L 64BITS **
+ *******************************************************************************
+ ** Cite this program as: MOPAC2016, Version: 20.225L, James J. P. Stewart,   **
+ ** Stewart Computational Chemistry, web: HTTP://OpenMOPAC.net. Days left: 191**
+ *******************************************************************************
+ **                                                                           **
+ **                                MOPAC2016                                  **
+ **                                                                           **
+ *******************************************************************************
+
+                              PM7 CALCULATION RESULTS
+
+ *******************************************************************************
+ *  CALCULATION DONE:                                Wed Feb  3 14:18:14 2021  *
+ *  PM7        - The PM7 Hamiltonian to be used
+ *  SINGLET    - SPIN STATE DEFINED AS A SINGLET
+ *
+ *
+ *
+ *                 CHARGE ON SYSTEM = 0
+ *
+ *
+ *
+ *  STEP       - STEP-SIZE IN PATH =   0.100
+ *  POINT      - NUMBER OF POINTS IN PATH = 15
+ *  T=         - A TIME OF 172800.0 SECONDS REQUESTED
+ *  DUMP=N     - RESTART FILE WRITTEN EVERY 7200.0 SECONDS REQUESTED
+ *  AUX        - OUTPUT AUXILIARY INFORMATION
+ *  LARGE      - EXPANDED OUTPUT TO BE PRINTED
+ *******************************************************************************
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+  ATOM    CHEMICAL      BOND LENGTH      BOND ANGLE     TWIST ANGLE 
+ NUMBER    SYMBOL       (ANGSTROMS)      (DEGREES)       (DEGREES) 
+   (I)                     NA:I           NB:NA:I       NC:NB:NA:I       NA    NB    NC 
+     1      Cl          0.00000000       0.0000000       0.0000000        0     0     0
+     2       H          0.30000000  +    0.0000000       0.0000000        1     0     0
+ 
+
+
+          CARTESIAN COORDINATES 
+
+    NO.       ATOM           X           Y           Z
+
+     1        Cl          0.0000      0.0000      0.0000
+     2         H          0.3000      0.0000      0.0000
+
+ General Reference for PM7:
+ "Optimization of Parameters for Semiempirical Methods VI: More Modifications to the 
+ NDDO Approximations and Re-optimization of Parameters", J. J. P. Stewart, J. Mol. Mod., 1:32, 19 (2013)
+ https://link.springer.com/article/10.1007/s00894-012-1667-x
+
+           Empirical Formula: H Cl  =     2 atoms
+
+
+
+      MOLECULAR POINT GROUP   :   C*v 
+
+
+ SINGLET STATE CALCULATION
+
+
+      RHF CALCULATION, NO. OF DOUBLY OCCUPIED LEVELS = 4
+
+  ABOUT TO ENTER EF FROM PATHK
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.30000  1867407.324257
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     0.30000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.40000    59990.163300
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     0.40000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.50000     4658.512082
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     0.50000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.60000      843.558106
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     0.60000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.70000      309.114487
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     0.70000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.80000      146.743662
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     0.80000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         0.90000       65.480191
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     0.90000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.00000       18.766082
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     1.00000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.10000       -6.913248
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     1.10000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.20000      -18.398315
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     1.20000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.30000      -20.235411
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     1.30000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.40000      -15.693066
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     1.40000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.50000       -7.144283
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     1.50000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.60000        3.709309
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     1.60000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+          Geometry optimization using EF
+
+     GRADIENT =  0.00000 IS LESS THAN CUTOFF =  1.00000
+
+
+
+          VARIABLE        FUNCTION
+ :         1.70000       15.673367
+ AUX LARGE CHARGE=0 SINGLET PM7 STEP=0.1 POINT=15
+ HCl
+
+ Cl     0.00000000 +0    0.0000000 +0    0.0000000 +0     0     0     0
+  H     1.70000000 -1    0.0000000 +0    0.0000000 +0     1     0     0
+ 
+
+                POINTS ON REACTION PATH 
+                AND CORRESPONDING HEATS
+
+
+       0.30000000       0.40000000       0.50000000       0.60000000       0.70000000       0.80000000       0.90000000       1.00000000
+ 1867407.32425663   59990.16329990    4658.51208211     843.55810613     309.11448726     146.74366246      65.48019055      18.76608185
+       1.10000000       1.20000000       1.30000000       1.40000000       1.50000000       1.60000000       1.70000000
+      -6.91324809     -18.39831452     -20.23541134     -15.69306559      -7.14428299       3.70930873      15.67336748
+
+ **********************
+ *                    *
+ * JOB ENDED NORMALLY *
+ *                    *
+ **********************
+
+
+
+ TOTAL JOB TIME:             0.03 SECONDS
+
+ == MOPAC DONE ==
